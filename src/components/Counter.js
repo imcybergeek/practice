@@ -9,7 +9,7 @@ export default class Counter extends Component {
     render() {
         return (
             <>
-                <p>{this.state.count} {this.state.name}</p>
+                <p>{this.state.count}</p>
                 <button onClick={() => this.setState({count: this.state.count + 1 })}>
                     +
                 </button>
