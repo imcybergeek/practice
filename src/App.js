@@ -7,6 +7,7 @@ import ItemScreen from "./components/ItemScreen";
 import ClassProps from "./components/ClassProps";
 import EventDiv from "./components/EventDiv";
 import StyledComp from "./components/StyledComp";
+import StyledButton from "./components/StyledButton";
 
 function App() {
   const identity = {
@@ -15,7 +16,8 @@ function App() {
   };
   return (
     <>
-      <StyledComp />
+      <StyledButton />
+      {/* <StyledComp /> */}
       {/* <EventDiv/> */}
       {/* {<ClassProps identity={identity}/>} */}
       {/* <ItemScreen/> */}
